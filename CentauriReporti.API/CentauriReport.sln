@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentauriReport.Shared", "CentauriReport.Shared\CentauriReport.Shared.csproj", "{63753219-B47D-4EFC-92CC-74B5AA7FC484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentauriReport.API", "CentauriReport.API\CentauriReport.API.csproj", "{9E72A9F1-72C1-4FB3-905D-3BDCAEDAB97F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentauriReport.API", "CentauriReport.API\CentauriReport.API.csproj", "{9E72A9F1-72C1-4FB3-905D-3BDCAEDAB97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentauriReport.Services", "CentauriReport.Services\CentauriReport.Services.csproj", "{2CF51DD2-2B35-4670-802F-CFEFF3AB078A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{9E72A9F1-72C1-4FB3-905D-3BDCAEDAB97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E72A9F1-72C1-4FB3-905D-3BDCAEDAB97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E72A9F1-72C1-4FB3-905D-3BDCAEDAB97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF51DD2-2B35-4670-802F-CFEFF3AB078A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF51DD2-2B35-4670-802F-CFEFF3AB078A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF51DD2-2B35-4670-802F-CFEFF3AB078A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF51DD2-2B35-4670-802F-CFEFF3AB078A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
