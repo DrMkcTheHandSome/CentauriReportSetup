@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CentauriReport.Services/1.0.0": {
+        "dependencies": {
+          "CentauriReport.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CentauriReport.Services.dll": {}
+        }
+      },
+      "CentauriReport.Shared/1.0.0": {
+        "runtime": {
+          "CentauriReport.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CentauriReport.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CentauriReport.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

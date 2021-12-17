@@ -25,3 +25,7 @@ C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\Centau
 C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\obj\Debug\net6.0\ref\CentauriReport.API.dll
 C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\obj\Debug\net6.0\CentauriReport.API.pdb
 C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\obj\Debug\net6.0\CentauriReport.API.genruntimeconfig.cache
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\bin\Debug\net6.0\CentauriReport.Services.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\bin\Debug\net6.0\CentauriReport.Shared.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\bin\Debug\net6.0\CentauriReport.Services.pdb
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.API\bin\Debug\net6.0\CentauriReport.Shared.pdb

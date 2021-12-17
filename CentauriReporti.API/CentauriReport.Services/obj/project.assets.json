@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CentauriReport.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CentauriReport.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CentauriReport.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CentauriReport.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CentauriReport.Shared/CentauriReport.Shared.csproj",
+      "msbuildProject": "../CentauriReport.Shared/CentauriReport.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CentauriReport.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MarcKennethLomio\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Shared\\CentauriReport.Shared.csproj": {
+              "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Shared\\CentauriReport.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
