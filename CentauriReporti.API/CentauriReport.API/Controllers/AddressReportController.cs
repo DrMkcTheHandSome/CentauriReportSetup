@@ -1,4 +1,4 @@
-﻿using CentauriReport.Services.Interfaces;
+﻿using CentauriReport.Application.Interfaces;
 using CentauriReport.Shared.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -20,15 +20,15 @@ namespace CentauriReport.API.Controllers
         public AddressReportController(ILogger<AddressReportController> logger,
            IAddressService addressService)
         {
-            _addressService = addressService;
+            _addressService = addressService ?? throw new ArgumentNullException(nameof(addressService));
         }
 
-        [HttpGet]
-        public ActionResult<List<AddressViewModel>> Get()
+        [HttpGet("")]
+        public async Task<ActionResult<List<AddressViewModel>>> GetAddress()
         {
             try
             {
-                var result = _addressService.GetAddresses();
+                var result = await _addressService.GetAddresses();
                 return Ok(result);
             }
             catch(Exception ex)

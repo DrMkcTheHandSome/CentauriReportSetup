@@ -1,6 +1,7 @@
-﻿using CentauriReport.Services;
-using CentauriReport.Services.Interfaces;
-using Microsoft.Extensions.Configuration;
+﻿using CentauriReport.Application;
+using CentauriReport.Application.Interfaces;
+using CentauriReport.Application.Services;
+using CentauriReport.Shared.Manager;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,11 @@ namespace CentauriReport.API.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddApplication(this IServiceCollection services, ConnectionString connection)
         {
-            services.AddTransient<IAddressService, AddressService>();
+          services.AddScoped<IAddressService, AddressService>();
+          services.AddScoped<IAgencyService, AgencyService>();
+
             return services;
         }
     }

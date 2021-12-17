@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CentauriReport.Services.Interfaces
+namespace CentauriReport.Application.Interfaces
 {
    public interface IAddressService
     {
-        List<AddressViewModel> GetAddresses();
+        Task<List<AddressViewModel>> GetAddresses();
+
     }
 }

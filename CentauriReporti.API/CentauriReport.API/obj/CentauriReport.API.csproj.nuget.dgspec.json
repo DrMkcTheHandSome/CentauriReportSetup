@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Services.csproj": {
-                "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Services.csproj"
+              "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj": {
+                "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj"
               },
               "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Shared\\CentauriReport.Shared.csproj": {
                 "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Shared\\CentauriReport.Shared.csproj"
@@ -83,12 +83,12 @@
         }
       }
     },
-    "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Services.csproj": {
+    "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Services.csproj",
-        "projectName": "CentauriReport.Services",
-        "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Services.csproj",
+        "projectUniqueName": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj",
+        "projectName": "CentauriReport.Application",
+        "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj",
         "packagesPath": "C:\\Users\\MarcKennethLomio\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\obj\\",
         "projectStyle": "PackageReference",
@@ -127,6 +127,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

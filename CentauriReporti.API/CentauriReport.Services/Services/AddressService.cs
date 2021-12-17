@@ -1,26 +1,41 @@
-﻿using CentauriReport.Services.Interfaces;
+﻿using CentauriReport.Application.Interfaces;
+using CentauriReport.Shared.Manager;
 using CentauriReport.Shared.ViewModels;
+using Dapper;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CentauriReport.Services
+namespace CentauriReport.Application
 {
     public class AddressService : IAddressService
     {
-        public List<AddressViewModel> GetAddresses()
+        private readonly ConnectionString _connectionString = ConnectionString.GetState();
+        private readonly IAgencyService _agencyService;
+        public AddressService(IAgencyService agencyService)
         {
-            return new List<AddressViewModel>() { new AddressViewModel
+            _agencyService = agencyService;
+        }
+  
+
+        public async Task<List<AddressViewModel>> GetAddresses()
+        {
+            string sql = @"SELECT * from [Address]";
+            try
             {
-               Id = Guid.NewGuid(),
-               StreetAddress1 = "123",
-               StreetAddress2 = "Chico,",
-               City = "California",
-               County = "PH"
-           } 
-            };
+                using (var connection = new SqlConnection(_connectionString.CentauriConnection))
+                {
+                    var addresses = await connection.QueryAsync<AddressViewModel>(sql);
+                    return addresses.ToList();
+                }
+            }catch
+            {
+                throw;
+            }
+           
         }
     }
 }

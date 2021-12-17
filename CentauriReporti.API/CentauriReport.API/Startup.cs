@@ -1,4 +1,5 @@
 using CentauriReport.API.Infrastructure;
+using CentauriReport.Shared.Manager;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,8 +28,12 @@ namespace CentauriReport.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = ConnectionString.GetState();
+            connectionString.CentauriBillingConnection = Configuration["CentauriBillingConnectionString"];
+            connectionString.CentauriConnection = Configuration["CentauriConnectionString"];
+            connectionString.CentauriRaterConnection = Configuration["CentauriRaterConnectionString"];
 
-            services.AddInfrastructure(Configuration).AddControllers();
+            services.AddApplication(connectionString).AddControllers();
 
             services.AddSwaggerGen(c =>
             {

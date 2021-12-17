@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CentauriReport.Services\CentauriReport.Services.csproj" />
+    <ProjectReference Include="..\CentauriReport.Services\CentauriReport.Application.csproj" />
     <ProjectReference Include="..\CentauriReport.Shared\CentauriReport.Shared.csproj" />
   </ItemGroup>
 
