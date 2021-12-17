@@ -1,0 +1,12 @@
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\bin\Debug\net5.0\CentauriReport.Shared.deps.json
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\bin\Debug\net5.0\CentauriReport.Shared.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\bin\Debug\net5.0\ref\CentauriReport.Shared.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\bin\Debug\net5.0\CentauriReport.Shared.pdb
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.csproj.AssemblyReference.cache
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.AssemblyInfoInputs.cache
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.AssemblyInfo.cs
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.csproj.CoreCompileInputs.cache
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\ref\CentauriReport.Shared.dll
+C:\Users\MarcKennethLomio\source\repos\CentauriReport\CentauriReportSetup\CentauriReporti.API\CentauriReport.Shared\obj\Debug\net5.0\CentauriReport.Shared.pdb

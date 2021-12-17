@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -328,7 +328,7 @@
       },
       "CentauriReport.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CentauriReport.Shared": "1.0.0",
           "Dapper": "2.0.123",
@@ -343,7 +343,7 @@
       },
       "CentauriReport.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/CentauriReport.Shared.dll": {}
         },
@@ -980,7 +980,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "CentauriReport.Application >= 1.0.0",
       "CentauriReport.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
@@ -1011,15 +1011,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj": {
               "projectPath": "C:\\Users\\MarcKennethLomio\\source\\repos\\CentauriReport\\CentauriReportSetup\\CentauriReporti.API\\CentauriReport.Services\\CentauriReport.Application.csproj"
@@ -1037,8 +1037,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",
